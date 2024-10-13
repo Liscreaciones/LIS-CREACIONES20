@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #df6aaa;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+.productos {
+    padding: 20px;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; /* Espacio entre imágenes */
+}
+
+.galeria img {
+    max-width: 100%;
+    height: auto;
+    width: calc(33.33% - 10px); /* Tres imágenes por fila */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Sombra para las imágenes */
+}
+
+.contacto {
+    text-align: center;
+    padding: 20px;
+}
+
+.whatsapp img {
+    width: 24px; /* Ajusta el tamaño del ícono */
+    height: auto; /* Mantiene la proporción de aspecto */
+    margin-right: 5px; /* Espacio entre el ícono y el texto */
+    vertical-align: middle; /* Alinea el ícono con el texto */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
